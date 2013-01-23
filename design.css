@@ -1,34 +1,60 @@
 <STYLE>
+*{font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;}
+
 .empty {
 	color: #FFFFFF;
-	border-bottom: 1pt solid #000000;
+	/*border-bottom: 1pt solid #000000;*/
 }
 .menuActive {  
 	font-size: 12pt;
 	font-weight: bold;
 	color: #000000;
-	background-color: #FFFFFF;
+	background-color: #B2D1E0;
 	text-decoration: none;
-	border-left: 1pt solid #000000;
+	/*border-left: 1pt solid #000000;
 	border-right: 1pt solid #000000;
 	border-top: 1pt solid #000000;
-	border-bottom: 0pt solid #000000;
+	border-bottom: 0pt solid #000000;*/
 }
 .menuInactive {  
 	font-size: 12pt;
 	color: #000000;
-	background-color: #CCCCCC;
+	background-color: #999999;
 	text-decoration: none;
-	border-left: 1pt solid #000000;
+	/*border-left: 1pt solid #000000;
 	border-right: 1pt solid #000000;
 	border-top: 1pt solid #000000;
-	border-bottom: 0pt solid #000000;
+	border-bottom: 0pt solid #000000;*/
 }
 .menuInactive a{  
 	color: black;
 	text-decoration:none;
 }
-.menuInactive a:hover{
-	color: #005CB8;
+.menuInactive a:hover{color: #005CB8;}
+
+td.header {
+	background-color: #B2D1E0;
+	padding-left:0.5em;
+	font-size: 18pt;
 }
+
+td.body {
+	background-color: #E6E6E6;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+.question {
+	padding-left:1em;
+	background-color: #ffffff;
+	border-left: 1pt solid #000000;
+	border-right: 1pt solid #000000;
+	border-top: 1pt solid #000000;
+	border-bottom: 1pt solid #000000;
+}
+.extra-pad {
+	padding-left:1em;
+	padding-right:1em;
+}
+
 </STYLE>
