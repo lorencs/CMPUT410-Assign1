@@ -1,10 +1,5 @@
-<STYLE>
-*{
-	font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-}
-
 body {
-	background-color: #335C70;
+	background-color: #FFC55C;
 }
 
 .tab-menu td{
@@ -20,13 +15,13 @@ body {
 	font-size: 12pt;
 	font-weight: bold;
 	color: #000000;
-	background-color: #B2D1E0;
+	background-color: #E68A00;
 	text-decoration: none;
 }
 .menuInactive {  
 	font-size: 12pt;
 	color: #000000;
-	background-color: #999999;
+	background-color: #C1C1C1;
 	text-decoration: none;
 }
 .menuInactive a{  
@@ -49,7 +44,7 @@ body {
 }
 
 td.header {
-	background-color: #B2D1E0;
+	background-color: #E68A00;
 	padding-left:0.5em;
 	font-size: 18pt;
 	
@@ -58,7 +53,7 @@ td.header {
 }
 
 td.body {
-	background-color: #E6E6E6;
+	background-color: #ffffff;
 	padding-left:1em;
 	padding-right:1em;
 	
@@ -66,29 +61,28 @@ td.body {
 	-moz-border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
 	border-bottom-left-radius: 7px;
+	
+	border: 4pt solid #E68A00;
 }
 
 .question {
 	margin-top: 1em;
 	margin-bottom: 1em;
-	padding-left:1em;
 	background-color: #ffffff;
-	border-left: 1pt solid #000000;
-	border-right: 1pt solid #000000;
-	border-top: 1pt solid #000000;
-	border-bottom: 1pt solid #000000;
+	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 .qlabel {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
-#qlist{
+.qlist{
 	margin-top: 0;
 	margin-bottom: 1em;
 	padding: 0px;
 }
-#qlist li{
-	display: inline;
+.qlist li{
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
@@ -97,5 +91,3 @@ td.body {
 	padding-left:1em;
 	padding-right:1em;
 }
-
-</STYLE>

@@ -1,0 +1,11 @@
+I used tables for the tabs and for the main body. For the customizable question layouts I used list items with classes.
+
+For design1.css, I mostly followed the design shown on the Assignment page.
+I changed the background colors and also added rounded borders and a drop shadow (doesn't show up in IE).
+
+For design2.css, I kept the rounded borders and drop shadow. I changed the colors from design1.css.
+I also took out the borders around the questions and added an internal border for the body to
+match the color of the header.
+
+I also changed the font for both designs to Calibri. I had to embed this directly in all 3 HTML files because
+for some reason I couldn't get it to work in the CSS files unless I specified it in every single class that I used.
